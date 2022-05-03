@@ -11,6 +11,12 @@ ul{
     list-style: none;
 }
 
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+
 /* Хедер */
 
 /* Фон хедера */
@@ -21,11 +27,13 @@ ul{
 /* Колір логотипу */
 .logo{
     color: var(--link-text-color);
+    
 }
 
 /* Кольори ссилок хедера */
 .header-nav a{
     color: var(--title-text-color);
+    
 }
 
 .header-nav a:hover, 
@@ -74,6 +82,7 @@ ul{
 /* Колір головного заголовку(Ефективні...)*/
 .section-title-with-a-button {
     color: var(--primary-text-color)
+    
 }
 
 /* Колір фону з кнопкою */
@@ -105,3 +114,10 @@ ul{
 .header-nav .link.current{
     color: var(--link-text-color); 
 }
+
+
+
+
+
+
+

@@ -1,0 +1,107 @@
+:root{
+    --primary-text-color:#FFFFFF;
+    --title-text-color:#212121;
+    --subtitle-text-color:#757575;
+    --link-text-color:#2196F3;
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+/* Хедер */
+
+/* Фон хедера */
+.header-phone{
+    background-color:#FFFFFF; 
+}
+
+/* Колір логотипу */
+.logo{
+    color: var(--link-text-color);
+}
+
+/* Кольори ссилок хедера */
+.header-nav a{
+    color: var(--title-text-color);
+}
+
+.header-nav a:hover, 
+.header-nav a:focus {
+    color: var(--link-text-color);
+}
+
+.header-nav-mail{
+    color:var(--subtitle-text-color);
+}
+
+.header-nav-mail:hover,
+.header-nav-mail:focus {
+    color: var(--link-text-color);
+}
+
+
+.header-nav-tel{
+    color:var(--subtitle-text-color);
+}
+
+.header-nav-tel:hover,
+.header-nav-tel:focus {
+    color: var(--link-text-color);
+}
+
+
+/* Тіло сайту */
+/* Заголовки */
+.section-title{
+    color: var(--title-text-color);
+}
+
+.title-text{
+    color: var(--title-text-color);
+}
+
+.subtitle-text{
+    color: var(--subtitle-text-color);
+}
+
+.title-name{
+    color: var(--title-text-color);
+}
+
+/* Колір головного заголовку(Ефективні...)*/
+.section-title-with-a-button {
+    color: var(--primary-text-color)
+}
+
+/* Колір фону з кнопкою */
+.section-phone-with-a-button{
+    background-color: #2F303A;
+}
+
+/* Колір фону Наша команда */
+.section-phone-our-team{
+    background-color: #F5F4FA;
+}
+
+/* Колір заголовків посад команди */
+.subtitle-specialty{
+    color: var(--subtitle-text-color);
+}
+
+
+/* Button */
+
+.button{
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+
+/* Link */
+
+.header-nav .link.current{
+    color: var(--link-text-color); 
+}

@@ -6,14 +6,16 @@
 }
 
 
-
 ul{
     list-style: none;
 }
 
 
 body{
-    
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 
@@ -22,17 +24,16 @@ body{
 /* Фон хедера */
 
 .header-phone{
-    background-color:#FFFFFF; 
+    background-color:var(--primary-text-color);
 }
 
 /* Колір логотипу */
 
 .logo-web, .logo-studio{
-    color: #2196F3;
+    color: var(--link-text-color);
     font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -46,11 +47,7 @@ body{
 .header-nav a{
     color: var(--title-text-color);
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
     
 }
@@ -61,13 +58,9 @@ body{
 }
 
 .header-nav-mail{
-    color:var(--subtitle-text-color);
+    color: var(--subtitle-text-color);
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -80,11 +73,7 @@ body{
 .header-nav-tel{
     color:var(--subtitle-text-color);
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -100,53 +89,35 @@ body{
 
 .section-title{
     color: var(--title-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .title-text{
     color: var(--title-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .subtitle-text{
     color: var(--subtitle-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;    
-    letter-spacing: 0.03em;
 }
 
 .title-name{
     color: var(--title-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* Колір головного заголовку(Ефективні...)*/
 
 .section-title-with-a-button {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -169,23 +140,17 @@ body{
 /* Колір заголовків посад команди */
 .subtitle-specialty{
     color: var(--subtitle-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19px;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 
 /* Button */
 
 .button{
-    color: #FFFFFF;
-    background-color: #2196F3;
-    font-family: 'Roboto';
-    font-style: normal;
+    color: var(--primary-text-color);
+    background-color: var(--link-text-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -193,7 +158,9 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
+
 
 
 /* Link */
@@ -204,3 +171,39 @@ body{
 
 
 
+/* Футер */
+
+.footer-phone{
+    background-color: #2F303A;
+}
+
+.logo-studio-white{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.city-adress{
+    color: #FFFFFF;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+
+.address-block .link{
+    font-style: normal;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.address-block a:hover,
+.address-block a:focus {
+    color: var(--link-text-color);
+}

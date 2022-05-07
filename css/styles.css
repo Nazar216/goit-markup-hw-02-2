@@ -95,6 +95,7 @@ body{
     text-align: center;
 }
 
+
 .title-text{
     font-weight: 700;
     text-transform: uppercase;
@@ -218,9 +219,16 @@ body{
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
-    background-color: var(--link-text-color);
+    color: var(--title-text-color);
+    background-color: F5F4FA;
     cursor: pointer;
+}
+
+
+.button-portfolio:hover,
+.button-portfolio:focus{
+    color: var(--primary-text-color);
+    background: var(--link-text-color);
 }
 
 
@@ -243,4 +251,3 @@ body{
     letter-spacing: 0.03em;
     color: #757575;
 }
-
